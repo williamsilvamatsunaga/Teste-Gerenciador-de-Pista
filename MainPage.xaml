@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Teste_App_Pista.MainPage">
+
+    <ContentPage
+        Title="Comanda">
+        
+        <ScrollView>
+
+            <VerticalStackLayout>
+
+                <Label 
+                    Text="Informações do Cliente"
+                    FontSize="Header"
+                    HorizontalOptions="Center"
+                    Padding="20"/>
+
+                <Label
+                    Text="CLIENTE: "
+                    FontSize="Header"
+                    HorizontalOptions="Fill"
+                    Padding="10"/>
+
+                <Label
+                    Text="MOTORISTA: "
+                    FontSize="Header"
+                    HorizontalOptions="Fill"
+                    Padding="10"/>
+
+                <Label
+                    Text="PLACA: "
+                    FontSize="Header"
+                    HorizontalOptions="Fill"
+                    Padding="10"/>
+
+                <Label
+                    Text="KM: "
+                    FontSize="Header"
+                    HorizontalOptions="Fill"
+                    Padding="10"/>
+
+                <Label
+                    Text="HORÍMETRO: "
+                    FontSize="Header"
+                    HorizontalOptions="Fill"
+                    Padding="10"/>
+
+                <Label
+                    Text="BICO: "
+                    FontSize="Header"
+                    HorizontalOptions="Fill"
+                    Padding="10"/>
+
+                <Label
+                    Text="R$: "
+                    FontSize="Header"
+                    HorizontalOptions="Fill"
+                    Padding="10"/>
+
+                <Label
+                    Text="LITROS: "
+                    FontSize="Header"
+                    HorizontalOptions="Fill"
+                    Padding="10"/>
+
+                <Label
+                    Text="PRODUTO: "
+                    FontSize="Header"
+                    HorizontalOptions="Fill"
+                    Padding="10"/>
+
+                <Label
+                    Text="OBSERVAÇÕES: "
+                    FontSize="Header"
+                    HorizontalOptions="Fill"
+                    Padding="10"/>
+
+                <Button 
+                    x:Name="btEnviar"
+                    Text="Enviar"
+                    HorizontalOptions="Center"
+                    Clicked="btEnviar_Clicked"/>
+
+            </VerticalStackLayout>
+
+        </ScrollView>
+        
+    </ContentPage>
+
+    <ContentPage
+        Title="Produtos">
+
+        <ScrollView>
+
+            <VerticalStackLayout>
+
+                <Label
+                    Text="Valores dos Produtos: "
+                    FontSize="Header"
+                    HorizontalOptions="Center"
+                    Padding="20"/>
+
+            </VerticalStackLayout>
+            
+        </ScrollView>
+        
+    </ContentPage>
+
+    <ContentPage
+        Title="Histórico">
+
+                <Label
+                    Text="Envios de Comandas: "
+                    FontSize="Header"
+                    HorizontalOptions="Center"
+                    Padding="20"/>
+
+    </ContentPage>
+
+</TabbedPage>
