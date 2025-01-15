@@ -1,10 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Teste_App_Pista.MainPage">
+             x:Class="Teste_App_Pista.MainPage"
+            UnselectedTabColor="White"
+            SelectedTabColor="White"
+            BarBackground="#0F79BA">
 
     <ContentPage
-        Title="Comanda">
+        Title="Comanda"
+        IconImageSource="icon_comanda">
         
         <ScrollView>
 
@@ -89,7 +93,8 @@
     </ContentPage>
 
     <ContentPage
-        Title="Produtos">
+        Title="Produtos"
+        IconImageSource="icon_produto">
 
         <ScrollView>
 
@@ -108,7 +113,8 @@
     </ContentPage>
 
     <ContentPage
-        Title="Histórico">
+        Title="Histórico"
+        IconImageSource="icon_historico">
 
                 <Label
                     Text="Envios de Comandas: "
