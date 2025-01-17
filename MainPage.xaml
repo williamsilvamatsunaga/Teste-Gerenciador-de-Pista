@@ -1,6 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
+  
 <TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             
              x:Class="Teste_App_Pista.MainPage"
             UnselectedTabColor="White"
             SelectedTabColor="White"
@@ -20,11 +22,14 @@
                     HorizontalOptions="Center"
                     Padding="20"/>
 
-                <Label
-                    Text="CLIENTE: "
-                    FontSize="Header"
-                    HorizontalOptions="Fill"
-                    Padding="10"/>
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="CLIENTE: "
+                           FontSize="Header"
+                           Padding="10"
+                           VerticalOptions="Center"/>
+                    <Entry x:Name="entryCliente"
+                           HorizontalOptions="FillAndExpand"/>
+                </StackLayout>
 
                 <Label
                     Text="MOTORISTA: "
@@ -83,6 +88,10 @@
                 <Button 
                     x:Name="btEnviar"
                     Text="Enviar"
+                    TextColor="White"
+                    BackgroundColor="#0F79BA"
+                    FontAttributes="Bold"
+                    FontSize="Header"
                     HorizontalOptions="Center"
                     Clicked="btEnviar_Clicked"/>
 
