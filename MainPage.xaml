@@ -18,9 +18,11 @@
 
                 <Label 
                     Text="Informações do Cliente"
-                    FontSize="Header"
+                    FontFamily="Arial"
+                    FontSize="17"
                     HorizontalOptions="Center"
-                    Padding="20"/>
+                    Padding="30"
+                    VerticalOptions="Center"/>
 
                 <StackLayout Orientation="Horizontal">
                     <Label Text="CLIENTE: "
@@ -31,59 +33,114 @@
                            HorizontalOptions="FillAndExpand"/>
                 </StackLayout>
 
-                <Label
-                    Text="MOTORISTA: "
-                    FontSize="Header"
-                    HorizontalOptions="Fill"
-                    Padding="10"/>
+                <StackLayout Orientation="Horizontal">
+                    <Label
+                        Text="MOTORISTA: "
+                        FontSize="Header"
+                        Padding="10"
+                        VerticalOptions="Center"/>
+                    <Entry x:Name="entryMotorista"
+                           HorizontalOptions="FillAndExpand"/>
+                </StackLayout>
 
-                <Label
-                    Text="PLACA: "
-                    FontSize="Header"
-                    HorizontalOptions="Fill"
-                    Padding="10"/>
+                <StackLayout Orientation="Horizontal">
+                    <Label
+                        Text="PLACA: "
+                        FontSize="Header"
+                        Padding="10"
+                        VerticalOptions="Center"/>
+                    <Entry x:Name="entryPlaca"
+                        HorizontalOptions="FillAndExpand"/>
+                </StackLayout>
 
-                <Label
-                    Text="KM: "
-                    FontSize="Header"
-                    HorizontalOptions="Fill"
-                    Padding="10"/>
+                <StackLayout Orientation="Horizontal">
 
-                <Label
-                    Text="HORÍMETRO: "
-                    FontSize="Header"
-                    HorizontalOptions="Fill"
-                    Padding="10"/>
+                    <Label
+                        Text="KM: "
+                        FontSize="Header"
+                        Padding="10"
+                        VerticalOptions="Center"/>
+                    <Entry x:Name="entryKm"
+                           HorizontalOptions="FillAndExpand"
+                           Keyboard="Numeric"/>
+                </StackLayout>
 
-                <Label
-                    Text="BICO: "
-                    FontSize="Header"
-                    HorizontalOptions="Fill"
-                    Padding="10"/>
+                <StackLayout Orientation="Horizontal">
 
-                <Label
-                    Text="R$: "
-                    FontSize="Header"
-                    HorizontalOptions="Fill"
-                    Padding="10"/>
+                    <Label
+                        Text="HORÍMETRO: "
+                        FontSize="Header"
+                        Padding="10"
+                        VerticalOptions="Center"/>
+                    <Entry x:Name="entryHorimetro"
+                           HorizontalOptions="FillAndExpand"
+                           Keyboard="Numeric"/>
+                </StackLayout>
 
-                <Label
-                    Text="LITROS: "
-                    FontSize="Header"
-                    HorizontalOptions="Fill"
-                    Padding="10"/>
+                <StackLayout Orientation="Horizontal">
 
-                <Label
-                    Text="PRODUTO: "
-                    FontSize="Header"
-                    HorizontalOptions="Fill"
-                    Padding="10"/>
+                    <Label
+                        Text="BICO: "
+                        FontSize="Header"
+                        Padding="10"
+                        VerticalOptions="Center"/>
+                    
+                    <Entry x:Name="entryBico"
+                           HorizontalOptions="FillAndExpand"
+                           Keyboard="Numeric"/>
+                </StackLayout>
 
-                <Label
-                    Text="OBSERVAÇÕES: "
-                    FontSize="Header"
-                    HorizontalOptions="Fill"
-                    Padding="10"/>
+                <StackLayout Orientation="Horizontal">
+
+                    <Label
+                        Text="R$: "
+                        FontSize="Header"
+                        Padding="10"
+                        VerticalOptions="Center"/>
+                    <Entry x:Name="entryReais"
+                           HorizontalOptions="FillAndExpand"
+                           Keyboard="Numeric"/>
+
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+
+                    <Label
+                        Text="LITROS: "
+                        FontSize="Header"
+                        VerticalOptions="Center"
+                        Padding="10"/>
+                    <Entry x:Name="entryLitros"
+                           HorizontalOptions="FillAndExpand"
+                           Keyboard="Numeric"/>
+
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+
+                    <Label
+                        Text="PRODUTO: "
+                        FontSize="Header"
+                        VerticalOptions="Center"
+                        Padding="10"/>
+                    <Entry x:Name="entryProduto"
+                           HorizontalOptions="FillAndExpand"/>
+
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+
+                    <Label
+                        Text="OBSERVAÇÕES: "
+                        FontSize="Header"
+                        VerticalOptions="Center"
+                        Padding="10"/>
+                    <Entry x:Name="entryObservacoes"
+                           HorizontalOptions="FillAndExpand"/>
+
+                </StackLayout>
+
+                
 
                 <Button 
                     x:Name="btEnviar"

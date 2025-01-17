@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Teste_App_Pista")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+e8065c8f6ff853b49920d3c69d071d09ceb1c1c3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+0e50b3f3a1caec023ab94b03540178bd1c6814fa")]
 [assembly: System.Reflection.AssemblyProductAttribute("Teste_App_Pista")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Teste_App_Pista")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
